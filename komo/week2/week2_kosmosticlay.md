@@ -240,9 +240,31 @@
 
 ## ✏️추가 스터디
 
-- Pull Request 과정 중 에러 발생 여부 확인
+- Pull Request 과정 중 에러 발생 여부 확인 하기
 - Issue 작성
 - Milestone 활용
+- 연습용 organisation 저장소 생성(쓰기권한 포함)하여 각자 터미널에서 브랜치 생성하기
+
+## 😵 에러
+
+- 원본 저장소에서 직접 브랜치 생성 불가
+
+  - 에러 메시지
+
+    ```
+    remote: Permission to 2023-Git-Github-Study/git-study.git denied to kosmosticlay.
+    fatal: unable to access 'https://github.com/2023-Git-Github-Study/git-study/': The requested URL returned error: 403
+    ```
+
+  - 에러 원인
+
+    - 403 오류는 권한이 없을 때 발생하는 HTTP 오류 코드
+    - 원본 저장소에 대한 쓰기 권한이 없음을 의미
+
+  - 해결 방법
+
+    - 원본 저장소의 관리자에게 쓰기 권한 요청
+    - 권한을 얻지 못할 경우, fork한 후 원본 저장소에 PR 생성하여 변경사항 제안 요청
 
 ---
 
