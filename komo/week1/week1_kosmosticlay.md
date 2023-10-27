@@ -2,18 +2,18 @@
 
 ## 📌 1강 : BASIC GIT CONCEPT
 
-### 버전 관리
+### ✔️ 버전 관리
 
 - 버전 : 유의미한 변화가 결과물로 저장된 것
 - 버전 관리 : 특정 순간의 변경사항을 기억하는 것
 
-### 기본 개념
+### ✔️ 기본 개념
 
 - Repository : 프로젝트의 파일과 변경 이력 등을 저장하는 공간 (예: 로컬저장소/원격저장소)
 - Git : 버전 관리 제어 도구 -> 백업 / 협업에 유용
 - Branch : 특정 커밋으로부터 분기한 독립된 개발 타임라인
 
-### Git Workflow
+### ✔️ Git Workflow
 
 ![git workflow diagram](https://miro.medium.com/v2/resize:fit:640/format:webp/1*OqKfKe3mqCRbaWT2Y8YDOQ.png)
 
@@ -26,12 +26,12 @@
 
 ## ✏️추가 스터디
 
-### 먼지TIP
+### ✔️ 먼지TIP
 
 - VSCode Extension - Markdown Preview Enhanced
 - [마크다운(Markdown) 6분 순삭 정리@드림코딩](https://www.youtube.com/watch?v=kMEb_BzyUqk)
 
-### 버전 / 패치 / 업데이트
+### ✔️ 버전 / 패치 / 업데이트
 
 - '모든 패치는 업데이트지만, 모든 업데이트가 패치는 아니다'
 - **버전** : 소프트웨어의 특정 지점의 '스냅샷'
@@ -46,7 +46,7 @@
   (예: 버그수정, 안정성 향상)
 - **업데이트** : 소프트웨어의 일부를 수정, 개선, 또는 기능 추가등 포괄적 과정
 
-### 릴리즈와 태그
+### ✔️ 릴리즈와 태그
 
 - **릴리즈** : 최종 사용자에게 공개될 준비가 된 버전
 - **태그**
