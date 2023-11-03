@@ -136,6 +136,25 @@
 
 - fork한 레포지토리의 커밋이 깃허브 잔디에 적용되지 않는 이슈 해결<br/> \* 참고 : [Fork한 레포지토리의 커밋을 잔디에 반영하고 싶다면? Git Mirror Push (feat. 우테코)](https://velog.io/@pgmjun/Git-Fork%ED%95%9C-%EB%A0%88%ED%8F%AC%EC%A7%80%ED%86%A0%EB%A6%AC%EC%9D%98-%EC%BB%A4%EB%B0%8B%EC%9D%84-%EC%9E%94%EB%94%94%EC%97%90-%EB%B0%98%EC%98%81%ED%95%98%EA%B3%A0-%EC%8B%B6%EB%8B%A4%EB%A9%B4-Git-Mirror-Push-feat.-%EC%9A%B0%ED%85%8C%EC%BD%94)
 
+## 😵 에러
+
+- 원본 저장소에서 직접 브랜치 생성 불가
+
+  - 에러 메시지
+
+    ```
+    remote: Not Found
+    fatal: repository 'https://github.com/2023-Git-Github-Study/' not found
+    ```
+
+  - 에러 원인
+
+    - `git remote -v` 명령어로 조회한 결과, upstream의 url이 repository가 아닌 organisation주소로 등록되어 있었음
+
+  - 해결 방법
+
+    - `git remote set-url upstream [원본 레포 URL]`를 실행하여 upstream 주소 변경
+
 ---
 
 ## 📖 References
@@ -144,7 +163,3 @@
 - [GIT4 - Reset & Revert, Opentutorials.org](https://opentutorials.org/module/4032/24533)
 - [Visual studio 사용자를 위한 git](https://wikidocs.net/book/7060)
 - 모두의 깃&깃허브, 강민철, 길벗
-
-```
-
-```
