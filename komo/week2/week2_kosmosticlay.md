@@ -118,7 +118,7 @@
    ```
 
    - `-a` 옵션을 이용하여 해당 과정을 건너뛰고 모든 변경사항을 자동으로 스테이징
-     (예: `git commit -a -m “kosmosticlay’s week1 summary”`)
+     (예: `git commit -a -m “kosmosticlay’s week1 summary”` 또는<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `git commit -am "kosmosticlay's week1 summary"`)
      <br/>
 
 6. 로컬 저장소의 브랜치를 원격 저장소에 업로드
