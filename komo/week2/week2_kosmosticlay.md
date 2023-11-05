@@ -118,7 +118,7 @@
    ```
 
    - `-a` 옵션을 이용하여 해당 과정을 건너뛰고 모든 변경사항을 자동으로 스테이징
-     (예: `git commit -a -m “kosmosticlay’s week1 summary”`)
+     (예: `git commit -a -m “kosmosticlay’s week1 summary”` 또는<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `git commit -am "kosmosticlay's week1 summary"`)
      <br/>
 
 6. 로컬 저장소의 브랜치를 원격 저장소에 업로드
@@ -235,6 +235,13 @@
 | `git remote -v` | 연결된 원격 저장소의 URL 확인<br/> ![remote example](example_remote.png)    |
 
 <br/>
+
+### ✔️ git fetch / git pull 비교
+
+| 명령어      | 설명                                                                                                       |
+| ----------- | ---------------------------------------------------------------------------------------------------------- |
+| `git fetch` | 원격 변경 사항을 로컬에 가져오되, 병합하지 않는다.                                                         |
+| `git pull`  | 원격 변경 사항을 로컬에 가져오고, 현재 브랜치에 병합한다. <br/> \* `git fetch`와 `git merge`를 합친 명령어 |
 
 ---
 
