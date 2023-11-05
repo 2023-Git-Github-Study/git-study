@@ -1,6 +1,6 @@
 # Week 1
 
-### Git vs. GitHub
+### GIT VS GITHUB
 
 #### Git
 
@@ -14,7 +14,7 @@
 
 ---
 
-### Repositories (Repo, 저장소)
+### REPOSITORIES (Repo, 저장소)
 
 - 깃이 항상 주시하고 있는 폴더
 - **Local** Repository (**로컬** 저장소)
@@ -43,13 +43,13 @@
 
 ---
 
-### Commit (커밋)
+### COMMIT (커밋)
 
 - 저장소에 수정된 작업을 스냅샷으로 남기는 것
 
 ---
 
-### Git Areas (Git Workflow, 작업 환경)
+### GIT AREAS (Git Workflow, 작업 환경)
 
 #### Working Directory (Working Area, Unstaged Area)
 
@@ -66,7 +66,7 @@
 
   **[라이프사이클](https://ordo.tistory.com/133)**
 
-  <img src="https://git-scm.com/book/en/v2/images/lifecycle.png" width="500">
+  <img src="https://git-scm.com/book/en/v2/images/lifecycle.png" width="500px">
 
   1. Untracked 파일을 git add 명령어로 Staged 상태로 만듬
   2. Tracked 파일을 수정하면 Modified
@@ -84,7 +84,7 @@
 
 ---
 
-### Branch (브랜치)
+### BRANCH (브랜치)
 
 **[Branch Merge 예시](/branch_merge.md)**
 

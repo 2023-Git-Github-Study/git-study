@@ -8,7 +8,7 @@
 
 ---
 
-### [Week 1](/one/week_one.md):
+### [Week 1](w1/week_one.md)
 
 - Git & GitHub
 - Repositories
@@ -17,7 +17,7 @@
 - Branches
 - Branch Conflict
 
-### [Week 2](/two/week_two.md):
+### [Week 2](w2/week_two.md)
 
 - GitHub
 - Forking
@@ -26,3 +26,14 @@
 - Origin
 - Upstream
 - Issues
+
+### [Week 3](w3/week_three.md)
+
+- CLI Log
+- Commit
+- Push
+- Checkout
+- Resets
+  - Hard
+  - Soft
+  - Mixed
