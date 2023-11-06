@@ -53,9 +53,9 @@
 
 - **_Hard Reset 이전_**
 
-      <img src="../image/Before.png">
+    <img src="../image/Before.png">
 
-      <img src="../image/Before Log.png" width=80%>
+    <img src="../image/Before Log.png" width=80%>
 
   </br>
 
